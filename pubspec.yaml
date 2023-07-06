@@ -1,0 +1,58 @@
+name: hr_maangementf
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_colorpicker: ^1.0.3
+  
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/fonts/  # Include the fonts directory
+
+  fonts:  # Add the fonts section
+    - family: My1  # Font family name
+      fonts:
+        - asset: assets/fonts/my1.ttf  
+    - family: My2  
+      fonts:
+        - asset: assets/fonts/my2.ttf 
+    - family: My3  # Font family name
+      fonts:
+        - asset: assets/fonts/my3.ttf 
+    - family: My4  # Font family name
+      fonts:
+        - asset: assets/fonts/my4.ttf
+    - family: My5  # Font family name
+      fonts:
+        - asset: assets/fonts/my5.ttf 
+    - family: My6  # Font family name
+      fonts:
+        - asset: assets/fonts/my6.ttf 
+    - family: My7  # Font family name
+      fonts:
+        - asset: assets/fonts/my7.ttf 
+    - family: My8  # Font family name
+      fonts:
+        - asset: assets/fonts/my8.ttf 
+    - family: My9  # Font family name
+      fonts:
+        - asset: assets/fonts/my9.ttf 
+    - family: My10  # Font family name
+      fonts:
+        - asset: assets/fonts/my10.ttf 
+    - family: My11  # Font family name
+      fonts:
+        - asset: assets/fonts/my11.ttf                                      
